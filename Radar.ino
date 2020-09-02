@@ -141,8 +141,8 @@ void SignalCheck(int *motorSpeed){
            
       } 
  
- //Serial.println (*motorSpeed); //display HEX results 
- irrecv.resume(); //next value
+    //Serial.println (*motorSpeed); //display HEX results 
+    irrecv.resume(); //next value
     }
- Previous=results.value; // Value stored for future reference
+  Previous=results.value; // Value stored for future reference
  }
